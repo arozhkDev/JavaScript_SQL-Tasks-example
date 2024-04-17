@@ -49,6 +49,7 @@ Input: shared Google calendar ID; time period (starting and ending moments). Out
 
 **SQL**
 1. Create tables and insert data
+
 Create table “user” with the following structure:
 [id] int,
 	[firstName] varchar(255),
