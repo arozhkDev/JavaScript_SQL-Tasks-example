@@ -32,6 +32,7 @@ const proto = {
     prop22: null,
   },
 };
+
 const res = {
   prop11: {
     prop22: {
