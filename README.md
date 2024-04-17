@@ -50,7 +50,7 @@ Input: shared Google calendar ID; time period (starting and ending moments). Out
 
 **SQL**
 1. Create tables and insert data
-
+```
 Create table “user” with the following structure:
 [id] int,
 [firstName] varchar(255),
@@ -94,7 +94,7 @@ Insert the data into the table:
 (115, 1, 17, '2011-05-02'),
 (117, 4, 12, '2014-07-13'),
 (120, 5, 15, '2014-06-15')
-
+```
 2. Select names of all empty test groups (group name starts with “TEST-”).
 
 3. Select user first names and last names for the users that have Victor as a first name and are not members of any test groups 
